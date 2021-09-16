@@ -5,6 +5,15 @@
 - Install _dwmblocks_ with `sudo make install clean`
 - Add to your __.xinitrc__ or similiar to autoload it with dwm.
 
+# Scripts
+Here I also include my custom scripts to setup the blocks, which
+are located in the folder **scripts/**.
+
+You can browse theme and make the changes you want, or even use them by copying
+to the folder *~/.config/dwmblocks*.
+
+In *blocks.h* you can change the default path for the scripts and also change them
+
 # dwmblocks
 Modular status bar for dwm written in c.
 # usage
