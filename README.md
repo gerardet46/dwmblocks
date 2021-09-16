@@ -1,5 +1,6 @@
 # Installation
 - Clone this repository
+- `cd` to this repository
 - Copy my scripts with `cp -r scripts/ ~/.config/dwmblocks/`
 - Install _dwmblocks_ with `sudo make install clean`
 - Add to your __.xinitrc__ or similiar to autoload it with dwm.
