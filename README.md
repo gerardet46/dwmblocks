@@ -14,6 +14,15 @@ to the folder *~/.config/dwmblocks*.
 
 In *blocks.h* you can change the default path for the scripts and also change them
 
+# Important Notes
+My DWM is patched with this patches
+- statuscmd
+- status2d
+
+I also use `libcolors` (see my repo) to set color variables. Therefore, colors in these scripts
+are for example $COL\_VERD, meaning that it will pick the environment variable which is the color green.
+If you don't want to use this environment variables, please substitude every single color in this scripts.
+
 # dwmblocks
 Modular status bar for dwm written in c.
 # usage
