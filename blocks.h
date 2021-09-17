@@ -6,7 +6,7 @@ static const Block blocks[] = {
     {"",	SC("spotify.sh"),	    5,	  11},
     {"",	SC("checkupdates.sh"),	3600, 0},
     {"",	SC("volume.sh"),	    0,	  10},
-    {"",	SC("batt.py"),	        5,	  0},
+    {"",	SC("batt.sh"),	        15,	  0},
     {"",	SC("cpu.sh"),           1,	  0},
     {"",	SC("memoria.sh"),	    10,	  0},
     {"",	SC("date.sh"),	        30,	  0},
