@@ -11,7 +11,7 @@ text=""
 
 if [ "$int_cpu" -ge "80" ] ; then
     text="$text^c$COL_VERMELL^"
-elif [ "$int_cpu" -ge "50" ] ; then
+elif [ "$int_cpu" -ge "60" ] ; then
     text="$text^c$COL_TARONJA^"
 else
     text="$text^c$COL_GROC^"
