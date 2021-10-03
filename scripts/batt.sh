@@ -1,18 +1,18 @@
 #!/usr/bin/env sh
 
 colors() {
-    [ "$1" -lt "15" ] && echo "$COL_VERMELL" ||
-    [ "$1" -lt "35" ] && echo "$COL_TARONJA" ||
-    [ "$1" -lt "60" ] && echo "$COL_GROC"    ||
-    echo "$COL_BLANC"
+    [ "$1" -lt "15" ] && printf "$COL_VERMELL" && exit
+    [ "$1" -lt "35" ] && printf "$COL_TARONJA" && exit
+    [ "$1" -lt "60" ] && printf "$COL_GROC"    && exit
+    printf "$COL_BLANC"
 }
 
 icona() {
-    [ "$1" -lt "15" ] && echo "" ||
-    [ "$1" -lt "35" ] && echo "" ||
-    [ "$1" -lt "60" ] && echo "" ||
-    [ "$1" -lt "80" ] && echo "" ||
-    echo ""
+    [ "$1" -lt "15" ] && printf "" && exit
+    [ "$1" -lt "35" ] && printf "" && exit
+    [ "$1" -lt "60" ] && printf "" && exit
+    [ "$1" -lt "80" ] && printf "" && exit
+    printf ""
 }
 
 IC_CURRENT="^c$COL_GROC^"

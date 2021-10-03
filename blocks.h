@@ -3,8 +3,9 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-    {"",	SC("spotify.sh"),	    5,	  11},
+    {"",	SC("spotify.sh"),	    5,	  0},
     {"",	SC("checkupdates.sh"),	3600, 0},
+    {"",	SC("mail.sh"),      	0,    12},
     {"",	SC("volume.sh"),	    0,	  10},
     {"",	SC("batt.sh"),	        15,	  0},
     {"",	SC("cpu.sh"),           1,	  0},
