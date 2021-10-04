@@ -12,7 +12,6 @@ titol=$(sp current | awk 'FNR==4 {first = $1; $1 = ""; print $0}' | sed 's/&/i/g
 artista=$(sp current | awk 'FNR==3 {first = $1; $1 = ""; print $0}' | sed 's/&/i/g')
 
 if [ -n "$titol" ] || [ -n "$artist" ]; then
-    #echo "^c#1ed760^$titol -$artista"
     echo "^c$COL_VERD^ $titol -$artista"
 else
     echo "^c$COL_BG_0^-"

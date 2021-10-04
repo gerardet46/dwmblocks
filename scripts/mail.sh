@@ -12,7 +12,7 @@ for x in $acc; do
     [ -z "$unread" ] || text="$text$unread."
 done 2>/dev/null
 
-if ! [ -z "$text" ]; then
+if [ "$text" != "0.0.0." ]; then
     text="$(echo "$text" | sed 's/.$//')"
     echo "^c$COL_BLAU^  $text"
 fi
