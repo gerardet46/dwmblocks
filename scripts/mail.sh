@@ -1,9 +1,5 @@
 #!/usr/bin/env sh
 
-case $BLOCK_BUTTON in
-    3) mailsync ;;
-esac
-
 # reads accounts in order of mutt (i1, i2, i3, ... with mutt-wizard)
 acc=$(cat $HOME/.config/mutt/muttrc | grep "i[0-9]" | grep -o "switch to [^\"]*" | awk '{print $3}')
 
