@@ -9,7 +9,8 @@ static const Block blocks[] = {
     {"",	SC("mail.sh"),      	300,                12 },
     {"",	SC("volume.sh"),	0,	            10 },
     {"",	SC("batt.sh"),	        15,	            0  },
-    {"",	SC("cpu.sh"),           1,	            0  },
+    {"",	SC("net.sh"),	        15,	            0  },
+    {"",	SC("cpu.sh"),           3,	            0  },
     {"",	SC("memoria.sh"),	10,	            0  },
     {"",	SC("date.sh"),	        15,	            0  },
 };
